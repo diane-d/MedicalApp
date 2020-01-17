@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MedicalApp.EntityFramework
 {
-    class Physician
+    public class Physician
     {
         public int Id { get; private set; }
         public string FirstName { get; private set; }

@@ -3,3 +3,8 @@ C:\Users\floso\OneDrive\Bureau\Projet c\MedicalApp\MedicalApp.BusinessLogic\bin\
 C:\Users\floso\OneDrive\Bureau\Projet c\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.csprojAssemblyReference.cache
 C:\Users\floso\OneDrive\Bureau\Projet c\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.AssemblyInfoInputs.cache
 C:\Users\floso\OneDrive\Bureau\Projet c\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.AssemblyInfo.cs
+C:\Users\floso\OneDrive\Bureau\Projet c\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.runtimeconfig.json
+C:\Users\floso\OneDrive\Bureau\Projet c\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.runtimeconfig.dev.json
+C:\Users\floso\OneDrive\Bureau\Projet c\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.pdb
+C:\Users\floso\OneDrive\Bureau\Projet c\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.dll
+C:\Users\floso\OneDrive\Bureau\Projet c\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.pdb
