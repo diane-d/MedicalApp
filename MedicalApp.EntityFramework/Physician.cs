@@ -11,5 +11,11 @@ namespace MedicalApp.EntityFramework
         public string LastName { get; private set; }
         public string PhoneNumber { get; private set; }
         public string Email { get; private set; }
+        public Physician (string firstName, string lastName, string phoneNumber, string email) {
+            FirstName = firstName;
+            LastName = lastName;
+            PhoneNumber = phoneNumber;
+            Email = email;
+        }
     }
 }

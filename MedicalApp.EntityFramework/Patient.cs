@@ -12,5 +12,15 @@ namespace MedicalApp.EntityFramework
         public DateTime DateOfBirth { get; set; }
         public string Pathologies { get; set; }
 
+        public Patient(string firstName, string lastName, string phoneNumber,string email, DateTime dateOfBirth, string pathologies) 
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            PhoneNumber = phoneNumber;
+            Email = email;
+            DateOfBirth = dateOfBirth;
+            Pathologies = pathologies;
+        }
+
     }
 }

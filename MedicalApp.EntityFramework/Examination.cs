@@ -14,5 +14,13 @@ namespace MedicalApp.EntityFramework
         public DateTime DateAndTime { get; private set; }
         public string Observations { get; private set; }
 
+        public Examination(int patientId, int physicianId, DateTime dateAndTime, string observations) { 
+            PatientId = patientId;
+            PhysicianId = physicianId;
+            DateAndTime = dateAndTime;
+            Observations = observations;
+
+        }
+
     }
 }
