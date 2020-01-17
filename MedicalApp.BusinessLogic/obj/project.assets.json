@@ -2045,6 +2045,21 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "MedicalApp.EntityFramework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.1",
+          "Microsoft.EntityFrameworkCore.Proxies": "3.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.1"
+        },
+        "compile": {
+          "bin/placeholder/MedicalApp.EntityFramework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MedicalApp.EntityFramework.dll": {}
+        }
       }
     }
   },
@@ -7054,10 +7069,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "MedicalApp.EntityFramework/1.0.0": {
+      "type": "project",
+      "path": "../MedicalApp.EntityFramework/MedicalApp.EntityFramework.csproj",
+      "msbuildProject": "../MedicalApp.EntityFramework/MedicalApp.EntityFramework.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "MedicalApp.EntityFramework >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Proxies >= 3.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.1",
@@ -7089,7 +7110,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
