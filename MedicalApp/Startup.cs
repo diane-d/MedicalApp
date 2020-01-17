@@ -1,3 +1,5 @@
+using MedicalApp.BusinessLogic;
+using MedicalApp.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +28,9 @@ namespace MedicalApp
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+            services.AddScoped<MedicalContext>();
+            services.AddTransient<PatientService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

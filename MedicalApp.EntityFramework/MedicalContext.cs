@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MedicalApp.EntityFramework
 {
-    class MedicalContext : DbContext
+    public class MedicalContext : DbContext
     { 
         private const string ConnectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=Medical;Integrated Security=true;";
 

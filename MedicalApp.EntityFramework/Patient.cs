@@ -12,15 +12,18 @@ namespace MedicalApp.EntityFramework
         public DateTime DateOfBirth { get; set; }
         public string Pathologies { get; set; }
 
-        public Patient(string firstName, string lastName, string phoneNumber,string email, DateTime dateOfBirth, string pathologies) 
+        public Patient(int id, string firstName, string lastName, string phoneNumber,string email, DateTime dateOfBirth, string pathologies) 
         {
+            Id = id;
             FirstName = firstName;
             LastName = lastName;
             PhoneNumber = phoneNumber;
             Email = email;
             DateOfBirth = dateOfBirth;
             Pathologies = pathologies;
+
         }
+        public Patient() { }
 
     }
 }
