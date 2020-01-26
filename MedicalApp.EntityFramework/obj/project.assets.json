@@ -7065,19 +7065,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\floso\\.nuget\\packages\\": {}
+    "C:\\Users\\emeli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj",
+      "projectUniqueName": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj",
       "projectName": "MedicalApp.EntityFramework",
-      "projectPath": "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj",
-      "packagesPath": "C:\\Users\\floso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.EntityFramework\\obj\\",
+      "projectPath": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj",
+      "packagesPath": "C:\\Users\\emeli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\floso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -7086,19 +7086,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\floso\\.nuget\\packages\\": {}
+    "C:\\Users\\emeli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.BusinessLogic\\MedicalApp.BusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.BusinessLogic\\MedicalApp.BusinessLogic.csproj",
       "projectName": "MedicalApp.BusinessLogic",
-      "projectPath": "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.BusinessLogic\\MedicalApp.BusinessLogic.csproj",
-      "packagesPath": "C:\\Users\\floso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.BusinessLogic\\obj\\",
+      "projectPath": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.BusinessLogic\\MedicalApp.BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\emeli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\floso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7111,8 +7111,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj": {
-              "projectPath": "C:\\Users\\floso\\OneDrive\\Bureau\\Projet c\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj"
+            "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj"
             }
           }
         }

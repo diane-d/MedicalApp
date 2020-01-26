@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MedicalApp.WebAPI.DTO
 {
-    public  class MapDTO
+    public class MapDTO
     {
         public static PatientDTO MapPatientToDTO(Patient patient)
         {
@@ -19,7 +19,6 @@ namespace MedicalApp.WebAPI.DTO
                 Email = patient.Email,
                 DateOfBirth = patient.DateOfBirth,
                 Pathologies = patient.Pathologies
-
             };
         }
     }
