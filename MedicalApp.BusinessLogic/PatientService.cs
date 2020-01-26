@@ -83,6 +83,63 @@ namespace MedicalApp.BusinessLogic
             }
             return retVal;
         }
+
+        public bool CreatePatient(Patient patient)
+        {
+            using (var sqlConnection = new SqlConnection(ConnectionString))
+            {
+                sqlConnection.Open();
+
+                string queryCreate = "INSERT INTO dbo.Patients (FirstName, LastName, Email, PhoneNumber, DateOfBirth, Pathologies) VALUES (@FirstName, @LastName, @Email, @PhoneNumber, @DateOfBirth, @Pathologies)";
+
+                using (var command = new SqlCommand(queryCreate, sqlConnection))
+                {
+                    command.Parameters.Add(new SqlParameter("@FirstName", patient.FirstName));
+                    command.Parameters.Add(new SqlParameter("@LastName", patient.LastName));
+                    command.Parameters.Add(new SqlParameter("@Email", patient.Email));
+                    command.Parameters.Add(new SqlParameter("@PhoneNumber", patient.PhoneNumber));
+                    command.Parameters.Add(new SqlParameter("@DateOfBirth", patient.DateOfBirth));
+                    command.Parameters.Add(new SqlParameter("@Pathologies", patient.Pathologies));
+                    
+                    return command.ExecuteNonQuery() == 1;
+                }
+            }
+        }
+
+        public bool UpdatePatientPathologies(int id, string pathologies)
+        {
+            using (var sqlConnection = new SqlConnection(ConnectionString))
+            {
+                sqlConnection.Open();
+
+                string queryUpdate = "UPDATE dbo.Patients SET Pathologies = @Pathologies WHERE Id = @Id";
+
+                using (var command = new SqlCommand(queryUpdate, sqlConnection))
+                {
+                    command.Parameters.Add(new SqlParameter("@Id", id));
+                    command.Parameters.Add(new SqlParameter("@Pathologies", pathologies));
+
+                    return command.ExecuteNonQuery() == 1;
+                }
+            }
+        }
+
+        public bool DeletePatient(int id)
+        {
+            using (var sqlConnection = new SqlConnection(ConnectionString))
+            {
+                sqlConnection.Open();
+
+                string queryDelete = "DELETE dbo.Patients WHERE Id = @Id";
+
+                using (var command = new SqlCommand(queryDelete, sqlConnection))
+                {
+                    command.Parameters.Add(new SqlParameter("@Id", id));
+
+                    return command.ExecuteNonQuery() == 1;
+                }
+            }
+        }
     }
 }
 
