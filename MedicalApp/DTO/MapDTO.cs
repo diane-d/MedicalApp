@@ -21,5 +21,17 @@ namespace MedicalApp.WebAPI.DTO
                 Pathologies = patient.Pathologies
             };
         }
+
+        public static PhysicianDTO MapPhysicianToDTO(Physician physician)
+        {
+            return new PhysicianDTO
+            {
+                Id = physician.Id,
+                FirstName = physician.FirstName,
+                LastName = physician.LastName,
+                PhoneNumber = physician.PhoneNumber,
+                Email = physician.Email
+            };
+        }
     }
 }

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using MedicalApp.EntityFramework;
+using System.Linq;
 
 namespace MedicalApp.BusinessLogic
 {
@@ -100,7 +101,7 @@ namespace MedicalApp.BusinessLogic
                     command.Parameters.Add(new SqlParameter("@PhoneNumber", patient.PhoneNumber));
                     command.Parameters.Add(new SqlParameter("@DateOfBirth", patient.DateOfBirth));
                     command.Parameters.Add(new SqlParameter("@Pathologies", patient.Pathologies));
-                    
+
                     return command.ExecuteNonQuery() == 1;
                 }
             }
@@ -142,4 +143,3 @@ namespace MedicalApp.BusinessLogic
         }
     }
 }
-

@@ -30,6 +30,7 @@ namespace MedicalApp
             });
             services.AddScoped<MedicalContext>();
             services.AddTransient<PatientService>();
+            services.AddTransient<PhysicianService>();
 
         }
 

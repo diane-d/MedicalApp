@@ -33,6 +33,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="PhysicianController.cs" />
+    <Compile Remove="ValuesController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MedicalApp.BusinessLogic\MedicalApp.BusinessLogic.csproj" />
     <ProjectReference Include="..\MedicalApp.EntityFramework\MedicalApp.EntityFramework.csproj" />
   </ItemGroup>
