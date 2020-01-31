@@ -26,15 +26,17 @@ namespace MedicalApp.EntityFramework
 
             modelBuilder.Entity<Patient>(entity =>
             {
-                entity.HasKey(e => e.Id);
+                entity.HasKey(pa => pa.Id);
             });
             modelBuilder.Entity<Physician>(entity =>
             {
-                entity.HasKey(e => e.Id);
+                entity.HasKey(ph => ph.Id);
             });
             modelBuilder.Entity<Examination>(entity =>
             {
                 entity.HasKey(e => e.Id);
+                entity.HasOne(e => e.Patient).WithMany(pa => pa.Examinations).HasForeignKey(e => e.PatientId);
+                entity.HasOne(e => e.Physician).WithMany(ph => ph.Examinations).HasForeignKey(e => e.PhysicianId);
             });
         }
     }

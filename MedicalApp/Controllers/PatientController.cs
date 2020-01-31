@@ -56,5 +56,12 @@ namespace MedicalApp.WebAPI.Controllers
         {
             return _patientService.DeletePatient(patientId);
         }
+
+        [Route("[action]/{patientId}")]
+        [HttpGet]
+        public List<ExaminationDTO> GetPatientExaminations(int patientId)
+        {
+            return _patientService.GetPatientExaminations(patientId).Select(i => (MapDTO.MapExaminationToDTO(i))).ToList();
+        }
     }
 }

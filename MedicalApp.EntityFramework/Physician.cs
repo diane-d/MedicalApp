@@ -12,6 +12,8 @@ namespace MedicalApp.EntityFramework
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
 
+        public List<Examination> Examinations { get; set; }
+
         public Physician (int id, string firstName, string lastName, string phoneNumber, string email) {
             Id = id;
             FirstName = firstName;

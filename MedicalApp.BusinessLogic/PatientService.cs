@@ -141,5 +141,43 @@ namespace MedicalApp.BusinessLogic
                 }
             }
         }
+
+
+        public List<Examination> GetPatientExaminations(int id)
+        {
+            List<Examination> retVal = new List<Examination>();
+
+            using (var sqlConnection = new SqlConnection(ConnectionString))
+            {
+                sqlConnection.Open();
+
+                string queryGetExaminations = "SELECT Id, PatientId, PhysicianId, DateAndTime, Observations FROM dbo.Examinations WHERE PatientId = @Id";
+
+                using (var command = new SqlCommand(queryGetExaminations, sqlConnection))
+                {
+                    command.Parameters.Add(new SqlParameter("@Id", id));
+
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        var examination = new Examination
+                        {
+                            Id = (int)reader[0],
+                            PatientId = (int)reader[1],
+                            PhysicianId = (int)reader[2],
+                            DateAndTime = (DateTime)reader[3],
+                            Observations = (string)reader[4]
+                        };
+
+                        retVal.Add(examination);
+                    }
+
+                    reader.Close();
+                }
+            }
+
+            return retVal;
+        }
     }
 }

@@ -33,5 +33,16 @@ namespace MedicalApp.WebAPI.DTO
                 Email = physician.Email
             };
         }
+
+        public static ExaminationDTO MapExaminationToDTO(Examination examination)
+        {
+            return new ExaminationDTO
+            {
+                PatientId = examination.PatientId,
+                PhysicianId = examination.PhysicianId,
+                DateAndTime = examination.DateAndTime,
+                Observations = examination.Observations
+            };
+        }
     }
 }
