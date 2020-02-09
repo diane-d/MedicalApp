@@ -13,7 +13,7 @@ namespace MedicalApp.EntityFramework
         public DateTime DateOfBirth { get; set; }
         public string Pathologies { get; set; }
 
-        public List<Examination> Examinations { get; set; }
+        public virtual List<Examination> Examinations { get; set; }
 
         public Patient(int id, string firstName, string lastName, string phoneNumber,string email, DateTime dateOfBirth, string pathologies) 
         {

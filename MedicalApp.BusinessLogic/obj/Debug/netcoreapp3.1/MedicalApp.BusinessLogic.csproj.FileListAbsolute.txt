@@ -24,3 +24,16 @@ C:\Users\emeli\Documents\Cours\C# .NET\TP\MedicalApp\MedicalApp.BusinessLogic\ob
 C:\Users\emeli\Documents\Cours\C# .NET\TP\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.csproj.CopyComplete
 C:\Users\emeli\Documents\Cours\C# .NET\TP\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.dll
 C:\Users\emeli\Documents\Cours\C# .NET\TP\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.pdb
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.deps.json
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.runtimeconfig.json
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.runtimeconfig.dev.json
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.dll
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.pdb
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.EntityFramework.dll
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\bin\Debug\netcoreapp3.1\MedicalApp.EntityFramework.pdb
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.csprojAssemblyReference.cache
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.AssemblyInfo.cs
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.csproj.CopyComplete
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.dll
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.BusinessLogic\obj\Debug\netcoreapp3.1\MedicalApp.BusinessLogic.pdb

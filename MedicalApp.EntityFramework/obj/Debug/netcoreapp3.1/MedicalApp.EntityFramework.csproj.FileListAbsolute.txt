@@ -18,3 +18,13 @@ C:\Users\emeli\Documents\Cours\C# .NET\TP\MedicalApp\MedicalApp.EntityFramework\
 C:\Users\emeli\Documents\Cours\C# .NET\TP\MedicalApp\MedicalApp.EntityFramework\obj\Debug\netcoreapp3.1\MedicalApp.EntityFramework.AssemblyInfo.cs
 C:\Users\emeli\Documents\Cours\C# .NET\TP\MedicalApp\MedicalApp.EntityFramework\obj\Debug\netcoreapp3.1\MedicalApp.EntityFramework.dll
 C:\Users\emeli\Documents\Cours\C# .NET\TP\MedicalApp\MedicalApp.EntityFramework\obj\Debug\netcoreapp3.1\MedicalApp.EntityFramework.pdb
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\bin\Debug\netcoreapp3.1\MedicalApp.EntityFramework.deps.json
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\bin\Debug\netcoreapp3.1\MedicalApp.EntityFramework.runtimeconfig.json
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\bin\Debug\netcoreapp3.1\MedicalApp.EntityFramework.runtimeconfig.dev.json
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\bin\Debug\netcoreapp3.1\MedicalApp.EntityFramework.dll
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\bin\Debug\netcoreapp3.1\MedicalApp.EntityFramework.pdb
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\obj\Debug\netcoreapp3.1\MedicalApp.EntityFramework.csprojAssemblyReference.cache
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\obj\Debug\netcoreapp3.1\MedicalApp.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\obj\Debug\netcoreapp3.1\MedicalApp.EntityFramework.AssemblyInfo.cs
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\obj\Debug\netcoreapp3.1\MedicalApp.EntityFramework.dll
+C:\Users\emeli\Documents\Cours\Csharp dotNET\TP\MedicalApp\MedicalApp.EntityFramework\obj\Debug\netcoreapp3.1\MedicalApp.EntityFramework.pdb
