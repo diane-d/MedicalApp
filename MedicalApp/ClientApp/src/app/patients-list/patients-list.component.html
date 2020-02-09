@@ -1,0 +1,10 @@
+<h2>Patients</h2>
+<ul>
+  <li *ngFor="let patient of patientsList; index as patientId">
+
+    <h3>
+      {{ patient.firstName }} {{ patient.lastName }}
+    </h3>
+
+  </li>
+</ul>

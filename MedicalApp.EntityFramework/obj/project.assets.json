@@ -7070,11 +7070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj",
+      "projectUniqueName": "C:\\Users\\emeli\\Documents\\Cours\\Csharp dotNET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj",
       "projectName": "MedicalApp.EntityFramework",
-      "projectPath": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj",
+      "projectPath": "C:\\Users\\emeli\\Documents\\Cours\\Csharp dotNET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\MedicalApp.EntityFramework.csproj",
       "packagesPath": "C:\\Users\\emeli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emeli\\Documents\\Cours\\C# .NET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\obj\\",
+      "outputPath": "C:\\Users\\emeli\\Documents\\Cours\\Csharp dotNET\\TP\\MedicalApp\\MedicalApp.EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
